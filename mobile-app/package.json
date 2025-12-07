@@ -1,0 +1,9 @@
+{
+  "name": "smart-ewaste-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "pub-get": "flutter pub get",
+    "start": "flutter run"
+  }
+}

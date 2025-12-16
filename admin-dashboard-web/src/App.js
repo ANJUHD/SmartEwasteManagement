@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
-
-const API = process.env.REACT_APP_API || 'http://localhost:4000/api';
+const API = 'https://smart-ewaste.onrender.com/api';
 
 function App() {
   const [token, setToken] = useState('');

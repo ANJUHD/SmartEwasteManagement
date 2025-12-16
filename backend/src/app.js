@@ -32,4 +32,13 @@ app.get('/', (req, res) =>
   res.json({ ok: true, msg: 'Smart E-waste Backend' })
 );
 
+// TEMP DEBUG ROUTE – to verify this app.js is running on Render
+app.post('/__debug', (req, res) => {
+  res.json({
+    ok: true,
+    msg: 'Debug route from current app.js',
+    routesMounted: ['/api/auth', '/api/centers', '/api/pickups'],
+  });
+});
+
 module.exports = app;
